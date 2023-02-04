@@ -337,8 +337,8 @@ for i in range (900):
         
         # print (target_a, ac)
         
-        print (" ", "{:.2f}".format(loss_value), "",  "{:.2f}".format(np.sum(mask_b)/np.sum(mask_a)),"",j,"",(i*900)+j )
-
+        # print (" ", "{:.2f}".format(loss_value), "",  "{:.2f}".format(np.sum(mask_b)/np.sum(mask_a)),"",j,"",(i*900)+j )
+        print (" ", "{:.2f}".format(loss_value))
               
         # print (source[0], target_a[0])
         # print (loss_value, j, ab , output_data[0,5, int(ab)] , target_a[0,5])

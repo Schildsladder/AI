@@ -1,0 +1,67 @@
+git config --global user.name "name"
+git config --global user.email "email"
+
+create git in folder
+git init
+
+add file/s 
+git add filename1, filename2 
+
+
+add all files visible in status
+git add.
+
+
+add to stage previously added files
+git update-index --again :/:
+
+Commit changes
+git commit -m "comment"
+
+commit only previously inserted files
+git commit -a
+
+
+status/log
+git status
+git log
+
+
+rollback to specific point
+git checkout <commit hash>(got it from git log)
+
+back to the moost recent
+git checkout master
+
+
+git --help
+
+create branch
+git branch <new branch name>
+git branch -d <new branch name>  #delete branch
+
+list branch
+git branch
+
+get to specific branch
+git checkout <branch name>
+
+merge branch
+git merge <branch name>
+
+
+#pull/ push to github
+git pull <url representation> <master>
+git push
+
+git clone
+
+
+
+list all files in branch
+git ls-tree -r master --name-only
+
+
+git remote add origin https://github.com/Schildsladder/schildsladder.github.io
+git push -u origin master
+
